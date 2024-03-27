@@ -1,0 +1,55 @@
+.mainboxwidth p {
+  margin-bottom: 0;
+  font-size: 19px;
+}
+.bgclr {
+  background-color: #414042;
+}
+.py136 {
+  padding: 136px 0;
+}
+.mainboxwidth {
+  max-width: 1161px;
+  margin: 0 auto;
+}
+ 
+.leftcontain {
+  max-width: 303px;
+}
+.videopart{
+  max-width: 762px;
+}
+.mainboxwidth .mtheading {
+  margin-top: 32px;
+  padding-right: 40px;
+}
+@media (max-width: 1200px) {
+  .mainboxwidth .mtheading {
+    margin-top: 32px;
+    padding-right: 0px;
+    margin-right: 0;
+  }
+  .leftcontain {
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .py136 {
+    padding: 48px 0;
+  }
+  
+  .leftcontain {
+    max-width: 100%;
+  }
+  .mainboxwidth .mtheading {
+    margin-top: 32px;
+    padding-right: 0;
+    font-size: 27px;
+
+  }
+   
+  .mainboxwidth p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+}

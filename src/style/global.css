@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400..700&display=swap');
+ 
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    overflow-x: hidden;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto; 
+    font-style: normal; 
+    color: #414042;
+    background-color: #ffffff !important;
+
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+    font-weight: 700 !important;
+}
+p{
+  margin-bottom: 0;
+}
+a{
+    padding: 0;
+    color: #414042;
+}
+a,
+a:hover,
+ 
+button,
+button:focus { 
+  text-decoration: none !important;
+  outline: none !important;
+  box-shadow: none !important; 
+}
+a:focus{
+  border: 1.5px solid rgb(0, 0, 0);
+}
+.container{
+    max-width: 1502px !important;
+    margin: 0 auto;
+}
+.fs_17{
+  font-size: 17px;
+}
+ .fs_35{
+  font-size: 35px;
+ }
+ .fs_34{
+  font-size: 34px;
+ }
+ .cursor-pointer{
+  cursor: pointer;
+ }
+.dropdown-toggle {
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+  }
+ .bg-lightyellow{
+    background-color: #FBF4E4;
+ }
+ .bg-lightsky{
+    background-color: #D2E4FF;
+ }
+ .bg-gray{
+  background-color: #efefef;
+ }
+ .bg-yellow{
+    background-color: #FFCB05;
+ }
+ .bg-darkgray{
+    background-color: #333E4F;
+ }
+ .bg_brown{
+  background-color: #414042;
+ }
+ .text_primary{
+  color: #587ABC;
+ }
+ .border-dark{
+  border-color: #00000066 ;
+ }
+.bottomshap{
+  bottom: -100px;
+}
+.cursor-pointer{
+  cursor: pointer;
+ }
+ .sticky-top{
+  top: -0.5px !important;
+}
+.ReactModal__Overlay  {
+  z-index: 99999;
+}
+.border_dark{
+  border-top: 2px solid;
+  border-color: rgba(0, 0, 0, 0.18) !important ;
+ }
+.gap_6{
+  gap: 6rem;
+}
+ @media (max-width: 768px) {
+  .fs_35{
+    font-size: 28px;
+   }
+}
+
+
+ 

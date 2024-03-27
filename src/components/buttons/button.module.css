@@ -1,0 +1,27 @@
+.btn {
+  display: inline-block;
+  padding: 8px 40px;
+  color: #414042;
+  font-weight: 700;
+  border-radius: 6px;
+  font-size: 17px;
+  background-color: #FFCB05;
+}
+.btn:focus{
+  border: 1px solid #000000 !important;
+}
+.btn:hover{
+  background-color: #FFCB05;
+  transition: all .5s;
+}
+@media (max-width: 768px) {
+  .btn {
+    display: inline-block;
+    padding: 11px 61px;
+  font-size: 19px;
+    color: #414042;
+    font-weight: 700;
+    border-radius: 6px;
+    background-color: #FFCB05;
+  }
+}

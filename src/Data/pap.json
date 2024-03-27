@@ -1,0 +1,82 @@
+{
+  "header":{
+    "rightimg": "navbar_pap_fre.png",
+    "link":"https://bbd-pchealthhub.netlify.app/carepath-bap/",
+    
+    "alt" : "Avantages sociaux sur mesure et People vous connecte offert par Carepath BAP optimisés par le logo de la Corporation People"
+
+},
+    "homepageData": [
+      {
+        "subtitle": "Pour les propriétaires d’entreprise et les employés",
+        "title": "Soutien médical et de santé aux employés avec soutien supplémentaire aux propriétaires d’entreprise occupés",
+        "description": "Soutenir les employés avec des services de deuxième avis, soins contre le cancer, soutien pour s’y retrouver en soins de la santé et accès au soutien en santé mentale abordable. Le programme d’aide fournit aussi aux propriétaires d’entreprise un soutien de nature juridique ou financière et de gestion des personnes.",
+        "alt" : "Médecin debout avec un dossier médical parlant à une famille."
+      }
+    ],
+    "servicepageData": {
+      "subtitle": "Nos six éléments essentiels",
+      "title": "Gérer la santé et les défis quotidiens" 
+    },
+    "serviceBoxData": [
+      {
+        "title": "Accès au soutien en santé mentale",
+        "description": "Utilisez notre outil d’évaluation pour identifier les sujets de préoccupation et utilisez notre plateforme pour trouver des thérapeutes abordables. Votre première séance est gratuite."
+      },
+      {
+        "title": "Services de deuxième avis",
+        "description": "En fournissant un deuxième avis médical, nous incluons une évaluation complète et un rapport écrit à chaque utilisateur. Travaillez avec un spécialiste pour examiner votre diagnostic et les options de traitement."
+      },
+      {
+        "title": "Assistance pour le cancer et soutien pour s’y retrouver en soins de la santé",
+        "description": "Les infirmières en oncologie fournissent du soutien en cancérologie et de gestion de cas aux infirmières pour l’encadrement, l’éducation et tous les autres problèmes de santé. Soutien pour s’y retrouver en ce qui concerne le diagnostic, le traitement et les soins continus."
+      }
+    ],
+    "businessowners": [
+      {
+        "title": "Conseils juridiques",
+        "description": "Le service de conseils juridiques met les propriétaires d’entreprise en contact avec des avocats hautement qualifiés. Les consultations durent habituellement 30 minutes et comprennent des questions courantes de droit des sociétés, de droit du travail, de droit immobilier et de droit de la famille. "
+      },
+      {
+        "title": "Soutien de ressources humaines",
+        "description": "Consultations téléphoniques pour un large éventail de problèmes de ressources humaines difficiles, y compris la gestion du rendement, l’absentéisme, les conflits, les comportements difficiles et les stratégies de retour au travail."
+      },
+      {
+        "title": "Soutien financier",
+        "description": "Les propriétaires d’entreprise peuvent obtenir des réponses et des recommandations pour résoudre les défis d’entreprise, prendre des décisions éclairées, comprendre les conséquences fiscales et mieux gérer les finances de l’entreprise."
+      }
+    ],
+    "servicesbbd": [
+      { "content": "Soins contre le cancer" },
+      { "content": "Services de deuxième avis" },
+      { "content": "Soutien pour s’y retrouver en soins de la santé" },
+      { "content": "Accès à la santé mentale" }
+    ],
+    "guidedata": [
+      {
+        "number": 1,
+        "contain": " Remplissez le formulaire d’inscription",
+        "img": "guidecard1.png"
+      },
+      {
+        "number": 2,
+        "contain": "Vérifiez votre compte au moyen du code indiqué dans votre courriel",
+        "img": "guidecard2.png"
+      },
+      {
+        "number": 3,
+        "contain": " Connectez-vous et commencez à accéder à d’excellents services!",
+        "img": "guidecard3.png"
+      }
+    ],
+    "TestimonialData": {
+      "conatin": " J’ai obtenu du soutien pour gérer des complications avec le personnel de ma petite entreprise. Ce qui était génial! Ensuite, j’ai pu diriger mon employé vers des services de conseils et des renseignements sur le cancer. J’ai adoré cela et ça m’a fait du bien d’aider! ",
+      "written": "- Arun S.",
+      "shapeimg": "BaptestimonialShape.png"
+    },
+    "support":{
+      "title": "Obtenez le soutien dont vous avez besoin avec BBD",
+      "subtitle": "Inscrivez-vous aujourd’hui pour commencer",
+      "btn":"Commençons"
+    }
+  }

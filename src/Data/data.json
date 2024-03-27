@@ -1,0 +1,75 @@
+
+{
+  "header":{
+        "rightimg": "navbar_pae_fre.svg",
+        "link":"https://bbd-pchealthhub.netlify.app/eap/",
+        "alt" : "Avantages sociaux sur mesure et PAE de People vous connecte optimisés par le logo de la Corporation People"
+
+  },
+    
+    "homepageData":  
+      {
+        "subtitle": "Pour les employés",
+        "title": "Programme complet d’aide aux employés",
+        "description": "Soutenir les employés et les personnes à charge grâce à des conseils, des services travail-vie personnelle et des modules d’apprentissage.",
+        "alt": "Le gestionnaire donne un document à l’employé assis au bureau. L’employé est assis devant son ordinateur."
+        } ,
+    "aboutContain": {
+      "title": "Voyez ce que nous faisons en action!",
+      "description": "Le PAE de People vous connecte est le centre de ressources de conseil de BBD pour aider à confronter la santé personnelle et professionnelle.",
+      "btn": "Commençons"
+    },
+    "servicepageData": {
+      "subtitle": "Nos sept éléments essentiels",
+      "title": "Gérer les défis professionnels, de santé et de vie quotidiens ",
+      "description": "BBD offre un soutien de bien-être virtuel et personnalisé à vous et aux membres de votre famille. Ce service offre également une variété d’options de soins, une réservation facile et un service d’appariement de conseillers pour vous assurer que vos préférences sont prioritaires. "
+    },
+    "serviceBoxData": [
+      {
+        "img": "firstbox.svg",
+        "title": "Soutien en santé mentale",
+        "description": "PAE facile à utiliser, virtuel ou dans votre communauté locale. Nous avons des conseillers et thérapeutes agréés qui soutiennent les besoins à court et à long terme. "
+      },
+      {
+        "img": "second.svg",
+        "title": "Services professionnels, de santé et de vie",
+        "description": "Un soutien personnalisé à court terme pour aider à relever les défis quotidiens de la vie professionnelle comme l’encadrement en santé, les services financiers, le soutien en santé mentale et plus encore."
+      },
+      {
+        "img": "third.svg",
+        "title": "Blogue de ressources",
+        "description": "Articles et balados, vidéos sur la santé mentale"
+      },
+      {
+        "img": "fourthbox.svg",
+        "title": "Apprentissage personnel iTCC",
+        "description": "Modules en ligne de plusieurs semaines basés sur la thérapie cognitivo-comportementale pour nous aider à conduire notre propre changement de comportement. Travaillez de façon autonome et améliorez votre bien-être."
+      },
+      {
+        "img": "fivebox.svg",
+        "title": "Outil d’autoévaluation",
+        "description": "Outil exclusif d’autoévaluation de la santé mentale fondé sur le Manuel diagnostique et statistique des troubles mentaux (DSM)"
+      },
+      {
+        "img": "sixbox.svg",
+        "title": "Thérapie continue People vous connecte",
+        "description": "Transition harmonieuse vers des soins à long terme avec votre thérapeute. Le soutien pourrait se poursuivre dans la catégorie des praticiens paramédicaux de votre régime d’avantages sociaux."
+      },
+      {
+        "img": "sevenbox.svg",
+        "title": "Collaboration psychiatrique",
+        "description": "Collaboration psychiatrique virtuelle pour les cas nécessitant un soutien supplémentaire."
+      }
+    ],
+    "TestimonialData": {
+      "contain": "Le monde d’aujourd’hui et la vie moderne sont de plus en plus remplis d’incertitude, de relations compliquées et de changements fréquents. Les employeurs ont besoin d’aide pour créer des milieux de travail sains sur le plan mental et les employés ont besoin d’un accès facile à de l’aide pour régler leurs problèmes mentaux. Les employés n’ont pas besoin de souffrir en silence : ils se sentent vides, repliés sur eux-mêmes et perturbés sans un soutien et une aide suffisants.",
+      "written": "- ARASH ZOHOOR MD CCFP",
+      "shapeimg": "testimonialShape.png"
+    },
+    "support":{
+      "title": "Obtenez le support dont vous avez besoin avec BBD",
+      "subtitle": "Trouvez le soutien adéquat avec BBD.",
+      "btn":"Commençons "
+    }
+  }
+  

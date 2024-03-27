@@ -1,0 +1,115 @@
+.py84 {
+  padding-top: 84px;
+  padding-bottom: 117px;
+}
+.title {
+  margin-top: 21px;
+}
+.services h2,
+h4,
+p {
+  margin-bottom: 0;
+}
+.services h2 {
+  font-size: 32px;
+  margin-top: 21px;
+}
+
+.servicesconatin {
+  font-size: 19px;
+  margin-top: 35px;
+  
+}
+
+.servicemxwidth {
+  max-width: 880px;
+  margin: 0 auto;
+}
+.servicetitle h4{
+  font-size: 26px;
+}
+.servicesBox {
+  padding-top: 109px;
+  gap: 72px;
+  margin: 0 auto;
+}
+  .boxsize{
+  width: calc(25% - 115px);
+}
+.servicebuisnessbox {
+  padding-top: 47px;
+  max-width: 924px;
+  margin: 0 auto;
+}
+.buisnessboxtitle {
+  padding-bottom: 37px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.primaryclr {
+  color: #456cba;
+}
+.bgprimaryclr {
+  background-color: #456cba;
+}
+.border {
+  height: 4px;
+  width: 62.5%;
+}
+.serviceBtn {
+  margin-top: 51px;
+}
+.img_width{
+  width: 35px;
+}
+.boxsizeeap{
+  width: calc(33.33% - 16.2%);
+}
+.boxsize{
+  width: calc(33.33% - 6%);
+}
+.rowgap{
+ row-gap: 15px;
+}
+.grayshape{
+  filter: grayscale(1);
+}
+@media (max-width: 1200px) {
+  .boxsize{
+    width: calc(45% - 38px);
+  }
+  .boxsizeeap{
+    width: calc(45.33% - 10.2%);
+  }
+}
+@media (max-width: 768px) {
+  .buisnessboxtitle {
+    padding-bottom: 0px;
+  }
+  .boxsizeeap{
+    width: 100%;
+  }
+  .servicesconatin {
+    font-size: 17px;
+    margin-top: 35px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .py84 {
+    padding-top: 48px;
+    padding-bottom: 67px;
+  }
+  .services h2 {
+    font-size:27px;
+    margin-top: 21px;
+  }
+  .servicesBox {
+    padding-top: 50px;
+  }
+  .boxsize{
+    width: 100%;
+  }
+  .servicetitle h4{
+    font-size: 21px;
+  }
+}

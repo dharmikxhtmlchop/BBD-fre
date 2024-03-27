@@ -1,0 +1,43 @@
+.pySpace {
+  padding: 54px 0;
+}
+.backgroundclr {
+  background-color: #fbf4e4;
+}
+.mainBox {
+  max-width: 889px;
+  margin: 0 auto;
+}
+.warningboxbg {
+  background-color: rgba(65, 64, 66, 1);
+}
+.warning_box{
+  padding: 23px 30px;
+}
+.additional_conatainbox{
+  width: calc(50% + 22px);
+
+}
+.additional_warningbox{
+  width: calc(50% - 39px);
+}
+.butterflyright {
+  top: 7%;
+  right: 5%;
+}
+@media (max-width: 768px) {
+  .pySpace {
+    padding: 40px 0;
+  }
+  .mainBox {
+    max-width: auto;
+    margin: 0 auto;
+  }
+  .additional_conatainbox{
+    width: 100%;
+  
+  }
+  .additional_warningbox{
+    width: 100%;
+  }
+}

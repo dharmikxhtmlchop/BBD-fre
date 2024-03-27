@@ -1,0 +1,163 @@
+.vertical {
+  width: 1px;
+  height: 95px;
+  background: #00000033;
+  margin: 0 27px;
+}
+.closebtn{
+  width: 24px;
+}
+.logosize {
+  width: 152px;
+  height: auto;
+}
+.logorightsideimg {
+  width: 323px;
+  height: auto;
+}
+.dropdown-item:focus,
+.dropdown-item.active,
+.dropdown-toggle {
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+}
+.bg_notice{
+  background-color: #E3E4ED;
+  position: relative;
+  padding: 22px 0;
+
+}
+.noticetop{
+  max-width: 71%;
+  
+}
+.noticetop p{
+  font-size: 13px;
+}
+.noticetop .closebtn{
+  position: absolute;
+  top: 11px;
+  right: 18px;
+  width: 21px;
+  cursor: pointer;
+}
+.toogleicon{
+  border: 0;
+  padding: 0;
+}
+.nav_btn_getstart{
+  border: 1px solid #414042;
+  color: #414042;
+  transition: all .5s;
+  
+}
+.nav_btn_getstart:hover{
+  background-color: #414042;
+  color: white;
+  transition: all .5s;
+
+}
+.cursorpointer{
+  cursor: pointer;
+}
+.navbar{
+  transition: padding-top 0.3s ease;
+}
+.pt{
+  padding-top: 43px !important;
+}
+.nav_btn_getstart_eap_fs {
+  font-size: 17px;
+}
+.nav_btn_getstart_bap_fs {
+  font-size: 19px;
+}
+@media (max-width: 1200px) {
+  .logorightsideimg {
+    width: 255px;
+    height: auto;
+  }
+}
+  @media (max-width: 768px) {
+    .pt{
+      padding-top: 0px !important;
+    }
+  .shadow_nav{
+    box-shadow: 0 0 16px -9px black;
+  }
+  .vertical {
+    height: 55.71px;
+    margin: 0 11.5px;
+  }
+  .nav_btn_getstart_eap_fs {
+    font-size: 16px;
+  }
+  .nav_btn_getstart_bap_fs {
+    font-size: 16px;
+  }
+  .logosize {
+    width: 76.25px;
+    height: auto;
+  }
+  .logorightsideimg {
+    width: 200.42px;
+    height: auto;
+  }
+.bg_notice{
+  display: none;
+}
+  .navbar-toggler {
+    width: 24px !important;
+    height: 15px !important;
+  }
+
+  .navbar-toggler-icon {
+    width: 24px !important;
+    height: 15px !important;
+  }
+}
+@media (max-width: 992px) {
+  .shadow_nav{
+    box-shadow: 0 0 16px -9px black;
+  }
+  .vertical_line {
+    height: 100px;
+    margin: 0 11.5px;
+    width: 1px;
+    background-color: #00000033;
+  }
+  .px_harmburg{
+    padding: 0 6px;
+  }
+}
+@media (max-width: 425px) { 
+  .vertical_line {
+    height: 100px;
+    margin: 0 15.5px;
+    width: 1px;
+    background-color: #00000033;
+  }
+  .logorightsideimg {
+    width: 165.42px;
+    height: auto;
+  }
+  .vertical {
+    width: 1px;
+    height: 45px;
+    background: #00000033;
+    margin: 0 19.5px;
+  }
+}
+  @media (max-width: 374px) { 
+    .vertical_line {
+      margin: 0 4.5px;
+    }
+    .vertical {
+      margin: 0 4.5px; 
+  
+    }
+    .px_harmburg{
+      padding: 0 3px;
+    }
+}

@@ -1,0 +1,43 @@
+.pySpace {
+  padding-top: 151px;
+  padding-bottom: 125px;
+}
+
+.butterflyright {
+  top: 50%;
+  right: 10%;
+}
+.butterflyleft {
+   top: 25%;
+  left: 12%;
+}
+
+.support_contain h2{
+  font-size: 35px;
+}
+.support_contain p{
+  font-size: 25px;
+
+}
+.mt_27{
+  margin-top: 27px;
+}
+@media (max-width: 1440px) {
+  .butterflyleft {
+    top: 25%;
+   left: 5%;
+ }
+}
+@media (max-width: 768px) {
+  .pySpace {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .support_contain h2{
+    font-size: 27px;
+  }
+  .support_contain p{
+    font-size: 16px;
+  
+  }
+}

@@ -1,0 +1,66 @@
+.bgservice {
+  background-color: #FFCB05;
+}
+.pySpace {
+  padding: 93px 0;
+}
+.headingwidth {
+  max-width: 747px;
+  margin: 0 auto;
+}
+.mainboxsize {
+  padding-top: 76px;
+  max-width: 1057px;
+  margin: 0 auto;
+}
+.mt_75 {
+  margin-top: 70px;
+}
+.box_bapservice{
+  padding: 43.21px 19px;
+}
+.boxsize{
+  width: calc(25% - 14px);
+}
+.border_box{
+  border: 2px solid rgba(0, 0, 0, 0.2)
+}
+.service_que{
+  font-size: 21px;
+}
+@media (max-width: 992px) {
+  .boxsize{
+    width: calc(50% - 14px);
+  }
+}
+@media (max-width: 768px) {
+.headingwidth h2{
+  font-size: 27px;
+}
+.pySpace {
+  padding: 65px 0;
+}
+.box_bapservice{
+  padding: 20.21px 19px;
+}
+.boxsize{
+  width:100%;
+}
+.business_owner{
+  padding-top: 65px;
+  padding-bottom: 48px;
+
+}
+.service_que{
+  font-size: 17px;
+}
+.mt_75{
+  margin-top: 45px;
+}
+.mt_75 p{
+  font-size: 16px;
+}
+.mt_75 p span{
+  font-size: 16px;
+}
+}

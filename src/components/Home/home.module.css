@@ -1,0 +1,117 @@
+ 
+.rsconatin h1 {
+  font-size: 44.5px;
+}
+.py20 {
+  padding-top: 100px;
+  padding-bottom: 129px;
+}
+.pb_370{
+  padding-bottom: 370px;
+}
+.pb_161{
+  padding-bottom: 161px;
+}
+.bap_py{
+  padding-top: 90px;
+  /* padding-bottom: 161px; */
+}
+.careerpathpap_contain{
+  padding-bottom: 370px;
+}
+.sidespceeap {
+  max-width: 1311px;
+  margin: 0 auto;
+}
+.sidespcebap {
+  max-width: 1347px;
+  margin: 0 auto;
+}
+.imgpart{
+  max-width: 602px;
+}
+.rstopspce {
+  padding-top: 67px;
+}
+.rsconatin {
+  max-width: 563px;
+}
+.rsconatin .subtitle{
+  font-size: 18px;
+}
+.subtitle{
+  font-size: 18px;
+}
+.lscontain{
+  max-width: 546px;
+}
+.papcontain{
+  max-width: 563px;
+}
+.eap_contain{
+  margin-top: 67px;
+}
+.rsdescription {
+  margin-top: 37px;
+  font-size: 15px;
+}
+@media (max-width: 1126px) {
+  .rsconatin h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 992px) {
+  .rsconatin h1 {
+    font-size: 27px;
+  }
+  .careerpathpap_contain{
+    padding-bottom: 20px;
+  }
+  .pb_161{
+    padding-bottom: 29px;
+  }
+  .py20 {
+    padding-top: 48px;
+    padding-bottom: 290px;
+  }
+  .bap_py{
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .py20 {
+    padding-top: 48px;
+    padding-bottom: 223px;
+  }
+  .bap_py{
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .rsconatin p {
+    font-size: 16px;
+  }
+  .rsconatin h1 {
+    font-size: 26px;
+  }
+
+  .sidespce {
+    padding: 0 18px;
+  }
+  .rsconatin {
+    max-width: 100%;
+  }
+  .rstopspce {
+    padding-top: 43.61px;
+  }
+  .rsdescription {
+    margin-top: 30px;
+    padding-right: 0;
+  }
+}
+@media (max-width: 425px) {
+  .py20 {
+    padding-top: 48px;
+    padding-bottom: 160px;
+  }
+}

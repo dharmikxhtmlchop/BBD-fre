@@ -3,9 +3,10 @@
   "header":{
         "rightimg": "navbar_pae_fre.svg",
         "link":"https://bbd-pchealthhub.netlify.app/eap/",
-        "alt" : "Avantages sociaux sur mesure et PAE de People vous connecte optimisés par le logo de la Corporation People"
-
-  },
+        "alt" : "Avantages sociaux sur mesure et People vous connecte offert par Carepath BAP optimisés par le logo de la Corporation People",
+        "signup" : "https://bbdpae.peoplevousconnecte.com/signup",
+        "signin" : "https://bbdpae.peoplevousconnecte.com/signin"
+  }, 
     
     "homepageData":  
       {
@@ -17,12 +18,15 @@
     "aboutContain": {
       "title": "Voyez ce que nous faisons en action!",
       "description": "Le PAE de People vous connecte est le centre de ressources de conseil de BBD pour aider à confronter la santé personnelle et professionnelle.",
-      "btn": "Commençons"
+      "btn": "Commençons",
+      "btnlink" : "https://bbdpae.peoplevousconnecte.com/signup"
     },
     "servicepageData": {
       "subtitle": "Nos sept éléments essentiels",
       "title": "Gérer les défis professionnels, de santé et de vie quotidiens ",
-      "description": "BBD offre un soutien de bien-être virtuel et personnalisé à vous et aux membres de votre famille. Ce service offre également une variété d’options de soins, une réservation facile et un service d’appariement de conseillers pour vous assurer que vos préférences sont prioritaires. "
+      "description": "BBD offre un soutien de bien-être virtuel et personnalisé à vous et aux membres de votre famille. Ce service offre également une variété d’options de soins, une réservation facile et un service d’appariement de conseillers pour vous assurer que vos préférences sont prioritaires. ",
+      "btnlink" : "https://bbdpae.peoplevousconnecte.com/signup"
+
     },
     "serviceBoxData": [
       {
@@ -69,7 +73,9 @@
     "support":{
       "title": "Obtenez le support dont vous avez besoin avec BBD",
       "subtitle": "Trouvez le soutien adéquat avec BBD.",
-      "btn":"Commençons "
+      "btn":"Commençons ",
+      "btnlink" : "https://bbdpae.peoplevousconnecte.com/signup"
+
     }
   }
   

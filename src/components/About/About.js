@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap"
 import { StaticImage } from "gatsby-plugin-image"
 import Button from "../buttons/Button"
 import VideoPlayer from "../videoplayer/VideoPlayer "
-function About({aboutContain,btn}) {
+function About({aboutContain,btnlink}) {
   return (
     <section className={`${style.py136} ${style.bgclr}`}>
       <div className="container about">
@@ -27,7 +27,7 @@ function About({aboutContain,btn}) {
                    {aboutContain.description}
                 </p>
                 <div className="mt-4  ">
-                  <Button>{aboutContain.btn}</Button>
+                  <Button btnlink={btnlink}>{aboutContain.btn}</Button>
                 </div>
               </div>
             </Col>

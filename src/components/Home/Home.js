@@ -16,11 +16,11 @@ function Home(props) {
       {/* <div  className={` ${p0} ${bap_py ? style.bap_py : style.py20}`}> */}
           <div className={`${bap_py ?    style.sidespcebap : style.sidespceeap} `}>
         <div className="container px-3">
-            <Row className=" gap-lg-0  position-relative justify-content-center justify-content-lg-between  ">
-            <Col  lg={6} className={` ${alignself} ${bap_py ? style.pb_161  : ""}  ${imgpart ?  `${style.imgpart}` : ""} ${orderl}`}>
+            <Row className=" gap-lg-0 gap-3 position-relative justify-content-center justify-content-lg-between  ">
+            <Col  lg={6} className={`${style.imgwidth} ${alignself} ${bap_py ? style.pb_161  : ""}  ${imgpart ?  `${style.imgpart}` : ""} ${orderl}`}>
                 <img className="img-fluid" src={img} alt={homepageData.alt} />
               </Col>
-              <Col   lg={6} className={` ${bap_py ? style.pb_370  : ""} ${mt ? "mt-5" : ""} ${careerpathpap_contain ? style.careerpathpap_contain : ""}    ${orderf}   ${eap_contain ? style.eap_contain: ""}`}>
+              <Col   lg={6} className={` ${bap_py ? style.pb_370  : ""} ${mt ? "mt-0 mt-lg-5" : ""} ${careerpathpap_contain ? style.careerpathpap_contain : ""}    ${orderf}   ${eap_contain ? style.eap_contain: ""}`}>
                 <div
                   className={`text-center text-lg-start mx-auto ms-lg-0   ${meauto} ${papcontain ? style.papcontain :style.rsconatin}`}
                 >

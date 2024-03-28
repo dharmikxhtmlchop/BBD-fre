@@ -28,6 +28,16 @@
 .service_que{
   font-size: 21px;
 }
+.business_owner{
+  padding-top: 76px;
+  padding-bottom: 70px;
+}
+.title_bapservices{
+  font-size: 32.25px;
+}
+.box_contain{
+  font-size: 25.26px;
+}
 @media (max-width: 992px) {
   .boxsize{
     width: calc(50% - 14px);

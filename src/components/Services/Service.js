@@ -18,6 +18,7 @@ function Service(props) {
     btn,
     eapboxsize,
     grayshape
+    ,btnlink
   } = props
 
   return (
@@ -28,7 +29,7 @@ function Service(props) {
       <div className="position-absolute end-0 d-none d-xl-block">
         <StaticImage src="../../images/sevicebgshap2.png" alt=" " className= {` ${grayshape ? style.grayshape : ""}`} />
       </div>
-      <div className="container px-3">
+      <div className="container px-4 px-lg-3">
         <div className={`position-relative ${style.services} ${style.py84}`}>
           <div className={`text-center `}>
           <div className={`${style.servicetitle} ${style.servicemxwidth}`}>
@@ -51,7 +52,7 @@ function Service(props) {
             eapboxsize={eapboxsize}
           />
           <div className={` text-center ${style.serviceBtn}`}>
-            <Button>{btn}</Button>
+            <Button btnlink={btnlink}>{btn}</Button>
           </div>
         </div>
       </div>

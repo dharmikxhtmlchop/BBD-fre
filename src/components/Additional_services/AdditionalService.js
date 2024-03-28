@@ -13,8 +13,8 @@ function AdditionalService() {
         <Row className={` align-items-center row-gap-5 justify-content-between ${style.mainBox}`}>
           <Col lg={6} className={`px-lg-0  ${style.additional_conatainbox}`}>
             <div className="text-center text-lg-start">
-              <h4>Services supplémentaires</h4>
-              <p className="mt-3  ">
+              <h4 className={style.supplemenries_title}>Services supplémentaires</h4>
+              <p className= {`mt-3  ${style.supplemenriescontain}`} >
               Des événements inattendus se produisent et, lorsque cela se produit, BBD offre des services de soutien en cas d’incident critique au besoin.
               </p>
             </div>
@@ -27,10 +27,10 @@ function AdditionalService() {
                 <StaticImage src="../../images/warninghand.svg" />
               </div>
               <div>
-                <h5 className="text-white">
+                <h5 className= {`text-white ${style.warning_title}`}>
                 Services de soutien en cas d’incident critique
                 </h5>
-                <p className="text-warning mt-4">
+                <p className={`  mt-4 ${style.warning_notinclude}`}>
                 Non inclus. Frais pour le service.
                 </p>
               </div>

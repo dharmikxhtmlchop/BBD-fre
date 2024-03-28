@@ -2,9 +2,9 @@
   display: inline-block;
   padding: 8px 40px;
   color: #414042;
-  font-weight: 700;
+  font-weight: 600;
   border-radius: 6px;
-  font-size: 17px;
+  font-size: 19px;
   background-color: #FFCB05;
 }
 .btn:focus{
@@ -20,7 +20,7 @@
     padding: 11px 61px;
   font-size: 19px;
     color: #414042;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 6px;
     background-color: #FFCB05;
   }

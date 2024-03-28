@@ -16,14 +16,14 @@ import FooterComponent from '../components/Footer/Footer';
 function indexbap() {
   return (
     <Layout>
-      <Header img={data.header.rightimg} link={data.header.link} logoalt={data.header.alt}/> 
+      <Header img={data.header.rightimg} link={data.header.link} signup={data.header.signup} signin={data.header.signin} logoalt={data.header.alt}/> 
       <Home alignself="align-self-center" bap_py={true} p0="pb-0" careerpathpap_contain= "careerpathpap_contain"  papcontain={true} mt={true} orderf='order-first' imgpart="true" lscontain={true} orderl='order-last' img={baphomebg} shapeimg={shapeimg} homepageData={data.homepageData[0]} meauto="me-auto"/>
-      <BapServices serviceBoxData={data.servicesbbd}/>
-      <Service lefshape="" grayshape={true} subtitle={data.servicepageData.subtitle} btn="Commençons" eapboxsize="boxsize"  lg4='4' rightshape='' title={data.servicepageData.title}  noImage={false} businessowners={data.businessowners} description={''} divided={true} serviceBoxData={data.serviceBoxData} />
+      <BapServices serviceBoxData={data.servicesbbd}       btnlink="https://bbdcarepath-pap.peoplevousconnecte.com/signup"/>
+      <Service lefshape="" grayshape={true} btnlink={data.servicepageData.btnlink} subtitle={data.servicepageData.subtitle} btn="Commençons" eapboxsize="boxsize"  lg4='4' rightshape='' title={data.servicepageData.title}  noImage={false} businessowners={data.businessowners} description={''} divided={true} serviceBoxData={data.serviceBoxData} />
       <AdditionalService/>
       <AccountCreateGuide guidedata={data.guidedata}/>
       <Testimonial background="bg-gray" msauto='ms-auto' conatin={data.TestimonialData.conatin} flowerimg='d-none' shapeimg={shapeimgtestimonial} written={data.TestimonialData.written} />
-      <Support
+      {/* <Support
         rightpng="d-lg-block"
         fontcolor="text-black"
         title={data.support.title}
@@ -31,6 +31,20 @@ function indexbap() {
         subcontain={data.support.subtitle}
         btn={data.support.btn}
         btnbg="bg-white"
+        btnlink={data.support.btnlink}
+
+      /> */}
+      <Support
+      // leftpng=" "
+      fontcolor="text-black"
+      buuterflyleft="d-none d-lg-block"
+        rightpng=" d-block"
+        title={data.support.title}
+        supportbg="bg-yellow"
+        subcontain={data.support.subtitle}
+        btn={data.support.btn}
+        btnbg="bg-white"
+        btnlink={data.support.btnlink}
       />
        <FooterComponent boderclr="border_dark" fontcolor="text-black"  bgcolor="bg-yellow" /> 
 

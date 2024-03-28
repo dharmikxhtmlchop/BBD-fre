@@ -22,7 +22,7 @@ const IndexPage = () => {
       pageTitle="BBD-EAP-Gatsby Bootstrap"
       pageDescription="Welcome to our Gatsby site with Bootstrap integration"
     >
-    <Header img={header.rightimg} link={header.link} eap={true} logoalt={header.alt} />
+    <Header img={header.rightimg} link={header.link} signup={header.signup} signin={header.signin} eap={true} logoalt={header.alt} />
 
       <Home
         orderf="order-last"
@@ -35,7 +35,7 @@ const IndexPage = () => {
         eap_contain={true}
         bap_py={false}
       />
-      <About aboutContain={aboutContain}/>
+      <About aboutContain={aboutContain} btnlink={aboutContain.btnlink}/>
       <Service
         lg4="3"
         subtitle={servicepageData.subtitle}
@@ -45,6 +45,7 @@ const IndexPage = () => {
         noImage={true}
         divided={false}
         eapboxsize="boxsizeeap"
+        btnlink={servicepageData.btnlink}
         serviceBoxData={serviceBoxData.map(item => ({
     ...item,
     img: require(`../images/${item.img}`).default // Dynamic import of images
@@ -60,12 +61,16 @@ const IndexPage = () => {
         shapeimg={require(`../images/${TestimonialData.shapeimg}`).default   }
       />
       <Support
-        leftpng="d-none d-lg-block"
+        // leftpng="d-none d-lg-block"
+        buuterflyleft="d-none"
+      btnlink={support.btnlink}
+      leftpng=" d-lg-block"
         supportbg="bg_brown"
         title={ support.title}
         subcontain={ support.subtitle}
         btn={support.btn}
       />
+       
       <FooterComponent boderclr="border-dark"  bgcolor="bg_brown" /> 
     </Layout>
   )

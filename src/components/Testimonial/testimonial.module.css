@@ -39,7 +39,7 @@
   font-weight: 600;  
 }
 .content_writer{
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 600;
 }
 @media (max-width: 1200px) {
@@ -48,10 +48,7 @@
     margin-right: auto;
 
   }
-  .pxSpace p{
-    font-weight: 600;
-    font-size: 20px;
-  }
+  
 }
 @media (max-width: 1199.98px) {
   .conatinBox { 
@@ -75,17 +72,19 @@
     /* padding-top: 31px; */
 
   }
-  
-  .pxSpace p{
-    font-weight: 600;
+  .contain{
+    font-size: 17px;
+  }
+  .content_writer{
     font-size: 16px;
+    font-weight: 600;
   }
   .pxSpace {
     padding: 0 30px;
   }
   .leftquotes {
     position: absolute;
-    top: -20%;
+    top: -40%;
     left: 0;
   }
   .leftquotes_img {
@@ -104,7 +103,7 @@
 @media (max-width: 576px) {
   .leftquotes {
     position: absolute;
-    top: -17%;
+    top: -25%;
     left: 0;
   }
   .rightquotes {

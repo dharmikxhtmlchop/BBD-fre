@@ -79,7 +79,7 @@ const Header = props => {
           <Nav className="ms-auto">
           <div className="d-block d-lg-flex justify-content-between my-2 align-items-center   gap-5">
               <div className="d-lg-flex d-block justify-content-between align-items-center  gap-5"> 
-                <Nav.Link   href="https://bbdcarepath-pap.peoplevousconnecte.com/signin" target="blank" className="fw-bold">
+                <Nav.Link   href={props.signin} target="blank" className="fw-bold">
                 Connectez-vous
                 </Nav.Link>
                 <div className="mt-3 mt-lg-0 d-flex gap-3 align-items-center">
@@ -89,8 +89,8 @@ const Header = props => {
               </div>
               <div className="mt-3  mt-lg-0    d-block">
                 <Nav.Link 
-                   href="https://bbdcarepath-pap.peoplevousconnecte.com/signup"  target="blank"
-                  className={` d-inline-block  nav_btn   py-2 rounded-2 px-xl-5 px-4 fw-bold ${styles.nav_btn_getstart} ${props.eap ? styles.nav_btn_getstart_eap_fs : styles.nav_btn_getstart_bap_fs}`}
+                   href={props.signup}  target="blank"
+                  className={` d-inline-block  nav_btn   py-2 rounded-2 px-xl-5 px-4   ${styles.nav_btn_getstart} ${props.eap ? styles.nav_btn_getstart_eap_fs : styles.nav_btn_getstart_bap_fs}`}
                 >
                   Commençons
                 </Nav.Link>

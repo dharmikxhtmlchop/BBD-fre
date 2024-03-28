@@ -50,7 +50,7 @@
   border: 1px solid #414042;
   color: #414042;
   transition: all .5s;
-  
+  font-weight: 600;
 }
 .nav_btn_getstart:hover{
   background-color: #414042;

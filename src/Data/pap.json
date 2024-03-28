@@ -2,10 +2,10 @@
   "header":{
     "rightimg": "navbar_pap_fre.png",
     "link":"https://bbd-pchealthhub.netlify.app/carepath-bap/",
-    
-    "alt" : "Avantages sociaux sur mesure et People vous connecte offert par Carepath BAP optimisés par le logo de la Corporation People"
-
-},
+    "alt" : "Avantages sociaux sur mesure et People vous connecte offert par Carepath BAP optimisés par le logo de la Corporation People",
+    "signup" : "https://bbdcarepath-pap.peoplevousconnecte.com/signup",
+    "signin" : "https://bbdcarepath-pap.peoplevousconnecte.com/signin"
+},    
     "homepageData": [
       {
         "subtitle": "Pour les propriétaires d’entreprise et les employés",
@@ -16,7 +16,9 @@
     ],
     "servicepageData": {
       "subtitle": "Nos six éléments essentiels",
-      "title": "Gérer la santé et les défis quotidiens" 
+      "title": "Gérer la santé et les défis quotidiens" ,
+      "btnlink" : "https://bbdcarepath-pap.peoplevousconnecte.com/signup"
+
     },
     "serviceBoxData": [
       {
@@ -77,6 +79,8 @@
     "support":{
       "title": "Obtenez le soutien dont vous avez besoin avec BBD",
       "subtitle": "Inscrivez-vous aujourd’hui pour commencer",
-      "btn":"Commençons"
+      "btn":"Commençons",
+      "btnlink" : "https://bbdcarepath-pap.peoplevousconnecte.com/signup"
+
     }
   }

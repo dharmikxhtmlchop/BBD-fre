@@ -86,7 +86,7 @@ const handleinlinePause = () =>{
             </div>
 
             <Vimeo
-              video={738734767} // Sample video ID
+              video={738967866} // Sample video ID
               responsive={true}
               width={762}
               showTitle={false}

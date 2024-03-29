@@ -24,7 +24,7 @@ function ServiceBox({
           <div
             className={`d-block ps-0 ps-lg-3 d-lg-flex align-items-center justify-content-between ${style.buisnessboxtitle}`}
           >
-            <p className={`fw-bold fs-5 ${style.primaryclr}`}>
+            <p className={`fw-bold ${style.heading_supportemp} ${style.primaryclr}`}>
             Soutien aux employés
             </p>
             <div
@@ -56,7 +56,7 @@ function ServiceBox({
           <div
             className={`d-block ps-0 ps-lg-3 d-lg-flex align-items-center justify-content-between ${style.buisnessboxtitle}`}
           >
-            <p className={`fw-bold fs-5 ${style.primaryclr}`}>
+            <p className={`fw-bold ${style.heading_supportemp} ${style.primaryclr}`}>
             Soutien aux propriétaires d’entreprise
             </p>
             <div

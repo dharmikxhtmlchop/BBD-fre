@@ -7,7 +7,7 @@ function Card({ img, title, description, noImage ,img_width}) {
      <img src={img} alt="boxicon" className={` img-fluid ${img_width}`} />
     </div>}
       <h5 className="mb-0 mt-3 mt-lg-4 ">{title}</h5>
-      <p className="mt-4">{description}</p>
+      <p className={` mt-4 ${styles.serviceboxcontain}`}>{description}</p>
     </div>
   )
 }

@@ -55,6 +55,14 @@
   margin-top: 37px;
   font-size: 15px;
 }
+@media (max-width: 1200px) {
+  .careerpathpap_contain{
+    padding-bottom: 200px;
+  }
+  .pb_161{
+    padding-bottom: 100px;
+  }
+}
 @media (max-width: 1126px) {
   .rsconatin h1 {
     font-size: 36px;
@@ -88,9 +96,7 @@
     padding-top: 48px;
     padding-bottom: 0px;
   }
-  .rsconatin p {
-    font-size: 16px;
-  }
+  
   .rsconatin h1 {
     font-size: 26px;
   }
@@ -107,6 +113,10 @@
   .rsdescription {
     margin-top: 30px;
     padding-right: 0;
+    font-size: 14px;
+  }
+  .subtitle{
+    font-size: 13px;
   }
 }
 @media (max-width: 425px) {

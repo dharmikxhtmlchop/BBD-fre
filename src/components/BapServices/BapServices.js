@@ -16,7 +16,7 @@ function BapServices({serviceBoxData,btnlink}) {
           alt=" "
         />
       </div>
-      <div className="container px-4 px-lg-1">
+      <div className="container px-4 px-lg-4">
         <div className={style.headingwidth}>
           <div className="text-center">
             

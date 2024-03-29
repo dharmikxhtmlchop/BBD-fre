@@ -47,7 +47,7 @@ const Header = props => {
     </div> 
       </div>
     )}
-    <Navbar  expand="lg"  sticky="top" bg="white"  className={` py-0 py-lg-3 ${styles.shadow_nav} ${styles.navbar} ${isSticky ? 'py-lg-3' : styles.pt}`}    >
+    <Navbar  expand="lg"  sticky="top" bg="white"  className={` py-0 py-lg-3 px-lg-3 ${styles.shadow_nav} ${styles.navbar} ${isSticky ? 'py-lg-3' : styles.pt}`}    >
       <Container className="align-items-center">
         <div className="d-flex align-items-center">
           <Navbar.Brand as={Link} to="/" className="me-0 p-0">
@@ -77,13 +77,13 @@ const Header = props => {
         </div>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-          <div className="d-block d-lg-flex justify-content-between my-2 align-items-center   gap-5">
-              <div className="d-lg-flex d-block justify-content-between align-items-center  gap-5"> 
+          <div className="d-block d-lg-flex justify-content-between my-2 align-items-center   gap-3 gap-xl-5">
+              <div className="d-lg-flex d-block justify-content-between align-items-center  gap-3 gap-xl-5"> 
                 <Nav.Link   href={props.signin} target="blank" className="fw-bold">
                 Connectez-vous
                 </Nav.Link>
                 <div className="mt-3 mt-lg-0 d-flex gap-3 align-items-center">
-                <a href={props.link} className={` fs-6  fw-light ${ styles.cursorpointer}`} >EN</a><span>|</span><a href="/#" className={`fs-6 fw-bold ${ styles.cursorpointer}`}>FR</a>
+                <a href={props.link} className={` fs-6  fw-light ${ styles.cursorpointer}`} >EN</a><span>|</span><a href="/#" className={`fs-6 fw-bold ${ styles.cursordefault}`}>FR</a>
                 </div>
                 {/* </Nav.Link> */}
               </div>

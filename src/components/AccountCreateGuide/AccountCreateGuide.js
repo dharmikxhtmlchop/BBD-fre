@@ -5,7 +5,7 @@ import { Col, Row } from "react-bootstrap"
 function AccountCreateGuide({guidedata}) {
   return (
     <section className={style.pySpace}>
-      <div className="container px-4  px-lg-2">
+      <div className="container px-4  px-lg-4">
         <Row>
           <Col>
             <div className="text-center">

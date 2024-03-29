@@ -22,7 +22,7 @@ p {
 }
 
 .servicemxwidth {
-  max-width: 880px;
+  max-width: 679px;
   margin: 0 auto;
 }
 .servicetitle h4{
@@ -74,6 +74,9 @@ p {
 .grayshape{
   filter: grayscale(1);
 }
+.heading_supportemp{
+  font-size: 21px;
+}
 @media (max-width: 1200px) {
   .boxsize{
     width: calc(45% - 38px);
@@ -111,5 +114,9 @@ p {
   }
   .servicetitle h4{
     font-size: 21px;
+  }
+  .subtitleclr{
+    color: #00000099;
+     
   }
 }

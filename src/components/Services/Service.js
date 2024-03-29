@@ -34,7 +34,7 @@ function Service(props) {
           <div className={`text-center `}>
           <div className={`${style.servicetitle} ${style.servicemxwidth}`}>
               
-                <h4 className="text_primary">{subtitle}</h4>
+                <h4 className={` text_primary fw-semibold ${style.subtitleclr}`}>{subtitle}</h4>
                 <h2 className="mt-4 fw-bold">{title}</h2>
                 <p className={style.servicesconatin}> {description} </p>
               

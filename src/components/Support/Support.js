@@ -1,6 +1,5 @@
 import React from "react"
-import * as style from "./support.module.css"
-import { Col, Row } from "react-bootstrap"
+import * as style from "./support.module.css" 
 import Button from "../buttons/Button" 
 import buuterfly from "../../images/left_butterfly.svg"
 import leftbutterfly from "../../images/leftsupportbutterfly.svg"

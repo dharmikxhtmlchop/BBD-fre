@@ -3,6 +3,8 @@ import * as style from "./service.module.css"
 import { StaticImage } from "gatsby-plugin-image" 
 import ServiceBox from "./ServiceBox"
 import Button from "../buttons/Button"
+import sevicebgshap1 from "../../images/sevicebgshap1.png"
+import sevicebgshap2 from "../../images/sevicebgshap2.png"
 function Service(props) {
   const {
   
@@ -23,11 +25,12 @@ function Service(props) {
 
   return (
     <section className="position-relative">
-      <div className="position-absolute start-0 d-none d-xl-block">
-        <StaticImage src="../../images/sevicebgshap1.png" alt=" " className= {` ${grayshape ? style.grayshape : ""}`} />
+      <div className="position-absolute start-0 d-none d-xl-block"> 
+        <img src={sevicebgshap1} alt=" " className= {` ${grayshape ? style.grayshape : ""}`}  />
       </div>
       <div className="position-absolute end-0 d-none d-xl-block">
-        <StaticImage src="../../images/sevicebgshap2.png" alt=" " className= {` ${grayshape ? style.grayshape : ""}`} />
+      
+      <img src={sevicebgshap2} alt=" " className= {` ${grayshape ? style.grayshape : ""}`} />
       </div>
       <div className="container px-4 px-lg-3">
         <div className={`position-relative ${style.services} ${style.py84}`}>

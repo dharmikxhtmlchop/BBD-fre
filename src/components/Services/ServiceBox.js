@@ -14,7 +14,7 @@ function ServiceBox({
   return (
     <React.Fragment>
       <Row
-        className={`row-gap-3   ${
+        className={`row-gap-3 ps-0 ps-lg-3   ${
           rowgap ? "row-gap-md-5" : "row-gap-md-0"
         }   flex-wrap ${
           divided ?  `justify-content-between ${style.servicebuisnessbox}`  :  `justify-content-center ${style.servicesBox}`}
@@ -22,13 +22,13 @@ function ServiceBox({
       >
         {divided && (
           <div
-            className={`d-block ps-0 ps-lg-3 d-lg-flex align-items-center justify-content-between ${style.buisnessboxtitle}`}
+            className={`d-flex  d-lg-flex align-items-center justify-content-between ${style.buisnessboxtitle}`}
           >
             <p className={`fw-bold ${style.heading_supportemp} ${style.primaryclr}`}>
             Soutien aux employés
             </p>
             <div
-              className={` d-none d-lg-block  ${style.border}  ${style.bgprimaryclr}`}
+              className={`     ${style.border}  ${style.bgprimaryclr}`}
             ></div>
           </div>
         )}
@@ -51,10 +51,10 @@ function ServiceBox({
       </Row>
       {divided && (
         <Row
-          className={`row-gap-4 row-gap-md-0  justify-content-between flex-wrap  ${style.servicebuisnessbox}`}
+          className={`row-gap-4 row-gap-md-0 ps-0 ps-lg-3  justify-content-between flex-wrap  ${style.servicebuisnessbox}`}
         >
           <div
-            className={`d-block ps-0 ps-lg-3 d-lg-flex align-items-center justify-content-between ${style.buisnessboxtitle}`}
+            className={`d-block  d-lg-flex align-items-center justify-content-between ${style.buisnessboxtitle}`}
           >
             <p className={`fw-bold ${style.heading_supportemp} ${style.primaryclr}`}>
             Soutien aux propriétaires d’entreprise

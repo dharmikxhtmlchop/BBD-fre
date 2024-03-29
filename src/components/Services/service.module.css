@@ -53,11 +53,11 @@ p {
   background-color: #456cba;
 }
 .border {
-  height: 4px;
+  height: 1.5px;
   width: 62.5%;
 }
 .serviceBtn {
-  margin-top: 51px;
+  margin-top: 92px;
 }
 .img_width{
   width: 35px;
@@ -81,6 +81,10 @@ p {
   .boxsize{
     width: calc(45% - 38px);
   }
+  .border {
+    height: 1px;
+    width:  50%;
+  }
   .boxsizeeap{
     width: calc(45.33% - 10.2%);
   }
@@ -91,6 +95,10 @@ p {
   }
   .boxsizeeap{
     width: 100%;
+  }
+  .border {
+    height: 1px;
+    width:  20%;
   }
   .servicesconatin {
     font-size: 17px;
@@ -118,5 +126,11 @@ p {
   .subtitleclr{
     color: #00000099;
      
+  }
+}
+@media (max-width: 420px) {
+  .border {
+    height: 1px;
+    width:  16%;
   }
 }

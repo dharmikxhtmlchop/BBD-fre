@@ -13,7 +13,12 @@ import shapeimgtestimonial  from '../images/BaptestimonialShape.png'
 import baphomebg from '../images/baphomebg.png'
 import shapeimg from '../images/baphomeshape.png'
 import FooterComponent from '../components/Footer/Footer';
-function indexbap() {
+import { navigate } from "gatsby"
+
+function Indexbap() {
+  React.useEffect(() => {
+    navigate('/carepath-pap')
+  })
   return (
     <Layout>
       <Header img={data.header.rightimg} link={data.header.link} signup={data.header.signup} signin={data.header.signin} logoalt={data.header.alt}/> 
@@ -23,17 +28,7 @@ function indexbap() {
       <AdditionalService/>
       <AccountCreateGuide guidedata={data.guidedata}/>
       <Testimonial background="bg-gray" msauto='ms-auto' conatin={data.TestimonialData.conatin} flowerimg='d-none' shapeimg={shapeimgtestimonial} written={data.TestimonialData.written} />
-      {/* <Support
-        rightpng="d-lg-block"
-        fontcolor="text-black"
-        title={data.support.title}
-        supportbg="bg-yellow"
-        subcontain={data.support.subtitle}
-        btn={data.support.btn}
-        btnbg="bg-white"
-        btnlink={data.support.btnlink}
-
-      /> */}
+      
       <Support
       // leftpng=" "
       fontcolor="text-black"
@@ -52,4 +47,4 @@ function indexbap() {
   );
 }
 
-export default indexbap;
+export default Indexbap;

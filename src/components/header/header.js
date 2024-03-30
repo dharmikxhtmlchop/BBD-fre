@@ -83,7 +83,7 @@ const Header = props => {
                 Connectez-vous
                 </Nav.Link>
                 <div className="mt-3 mt-lg-0 d-flex gap-3 align-items-center">
-                <a href={props.link} className={` fs-6  fw-light ${ styles.cursorpointer}`} >EN</a><span>|</span><a href="/#" className={`fs-6 fw-bold ${ styles.cursordefault}`}>FR</a>
+                <a href={props.link} className={` fs-6  fw-light ${ styles.cursorpointer}`} >EN</a><span>|</span><p className={`fs-6 fw-bold ${ styles.cursordefault}`}>FR</p>
                 </div>
                 {/* </Nav.Link> */}
               </div>

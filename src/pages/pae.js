@@ -11,10 +11,13 @@ import "../style/global.css"
 import data from '../Data/data.json' // Import the JSON data file 
 import FooterComponent from "../components/Footer/Footer"
 import Header from "../components/header/header"
+import { navigate } from "gatsby"
 
 
 const IndexPage = () => {
-  
+  React.useEffect(() => {
+    navigate('/pae')
+  })
   const { header ,homepageData, aboutContain, servicepageData, serviceBoxData,support, TestimonialData } = data;
 
   return (

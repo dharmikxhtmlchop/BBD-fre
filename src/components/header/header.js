@@ -38,7 +38,9 @@ const Header = props => {
     {showNotice && (
       <div className={styles.bg_notice} >
       <div className={`   text-center  mx-auto noticetop ${styles.noticetop}`}>
+      <p>
 Les événements tragiques qui se déroulent sur la scène mondiale peuvent susciter des craintes et de l'anxiété. Si vous êtes touché de quelque manière que ce soit par les événements actuels, prenez rendez-vous avec un conseiller dès aujourd'hui. Pour accéder à 2 heures gratuites de consultation, connectez-vous à People vous connecte et envoyez un message à <a href="mailto:support@pcpeopleconnect.com" className={`fw-bold text-decoration-underline ${styles.header_link_eap}`}>support@pcpeopleconnect.com</a>  ou envoyez un message avec la fonction de clavardage.      <p></p>
+      </p>
       
       <button onClick={handleClose} className={`border-0 bg-transparent ${styles.closebtn}`} > 
       <img src={closebtn} alt="fermer" className="img-fluid" />

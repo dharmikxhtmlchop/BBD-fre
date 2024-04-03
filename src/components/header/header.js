@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { Navbar, Container, Nav,   } from "react-bootstrap"
-import { Link } from "gatsby" 
+import { Navbar, Container, Nav,   } from "react-bootstrap" 
 import * as styles from "./header.module.css"
  import closebtn from '../../images/btnclose.png' 
  import harmburg from '../../images/harmburg_menu.svg'

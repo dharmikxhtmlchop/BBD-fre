@@ -19,6 +19,9 @@ function Indexbap() {
   // React.useEffect(() => {
   //   navigate('/carepath-pap')
   // })
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Layout pageTitle="BBD-PAP">
       <Header img={data.header.rightimg} link={data.header.link} signup={data.header.signup} signin={data.header.signin} logoalt={data.header.alt}/> 

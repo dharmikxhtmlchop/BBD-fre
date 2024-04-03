@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React  from 'react';
 import Layout from '../components/layout';
 import Home from '../components/Home/Home';
 import BapServices from '../components/BapServices/BapServices';
@@ -12,13 +12,10 @@ import data from '../Data/pap.json';
 import shapeimgtestimonial  from '../images/BaptestimonialShape.png'
 import baphomebg from '../images/baphomebg.png'
 import shapeimg from '../images/baphomeshape.png'
-import FooterComponent from '../components/Footer/Footer';
-import { navigate } from "gatsby"
+import FooterComponent from '../components/Footer/Footer'; 
 
 function Indexbap() {
-  // React.useEffect(() => {
-  //   navigate('/carepath-pap')
-  // })
+  
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

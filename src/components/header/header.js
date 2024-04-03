@@ -49,7 +49,7 @@ Les événements tragiques qui se déroulent sur la scène mondiale peuvent susc
     <Navbar  expand="lg"  sticky="top" bg="white"  className={` py-0 py-lg-3 px-lg-3 ${styles.shadow_nav} ${styles.navbar} ${isSticky ? 'py-lg-3' : styles.pt}`}    >
       <Container className="align-items-center">
         <div className="d-flex align-items-center">
-          <Navbar.Brand  href="https:/www.bbd.ca/fr" target="_blank" className="me-0 p-0">
+          <Navbar.Brand  href="https://www.bbd.ca/fr/" target="_blank" className="me-0 p-0">
             <div className="img-fluid">
               <img
                 className={styles.logosize}

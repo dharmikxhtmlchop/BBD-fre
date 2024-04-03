@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React  from "react"
 import Layout from "../components/layout"
 import Home from "../components/Home/Home"
 import About from "../components/About/About"
@@ -10,14 +10,11 @@ import eaphomeshape from "../images/hero-bgshap.png"
 import "../style/global.css"   
 import data from '../Data/data.json' // Import the JSON data file 
 import FooterComponent from "../components/Footer/Footer"
-import Header from "../components/header/header"
-import { navigate } from "gatsby"
+import Header from "../components/header/header" 
 
 
 const IndexPage = () => {
-  // React.useEffect(() => {
-  //   navigate('/pae')
-  // })
+  
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

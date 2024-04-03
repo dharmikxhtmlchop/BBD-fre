@@ -18,7 +18,7 @@ const IndexPage = () => {
   // React.useEffect(() => {
   //   navigate('/pae')
   // })
-  useEffect(() => {
+  React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   const { header ,homepageData, aboutContain, servicepageData, serviceBoxData,support, TestimonialData } = data;

@@ -37,7 +37,7 @@ button:focus {
   box-shadow: none !important; 
 }
 a:focus{
-  border: 1.5px solid rgb(0, 0, 0);
+  border: 1.5px solid rgb(47, 0, 255);
 }
 .container{
     max-width: 1502px !important;
@@ -80,6 +80,9 @@ a:focus{
  }
  .text_primary{
   color: #587ABC;
+ }
+ .text_brown{
+  color: #414042;
  }
  .border-dark{
   border-color: #00000066 ;

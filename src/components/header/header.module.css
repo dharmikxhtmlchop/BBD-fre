@@ -74,6 +74,15 @@
 .cursordefault{
   cursor: default;
 }
+.header_link_eap:hover{
+  color: #d8ab00 !important;
+ }
+ .en_hover:hover{
+  color: #002aff !important;
+ }
+ .fr_hover:hover{
+  color: #002aff !important;
+ }
 @media (max-width: 1200px) {
   .logorightsideimg {
     width: 255px;
@@ -119,6 +128,12 @@
   }
 }
 @media (max-width: 992px) {
+  .menu_right{
+    max-width: 500px;
+    text-align: start;
+    margin-right: 48px;
+    margin-left: auto;
+  }
   .shadow_nav{
     box-shadow: 0 0 16px -9px black;
   }
@@ -133,6 +148,11 @@
   }
 }
 @media (max-width: 425px) { 
+  .menu_right{
+    
+    margin-right: 52px;
+    margin-left: auto;
+  }
   .vertical_line {
     height: 100px;
     margin: 0 15.5px;
@@ -153,6 +173,11 @@
   @media (max-width: 374px) { 
     .vertical_line {
       margin: 0 4.5px;
+    }
+    .menu_right{
+    
+      margin-right: 35px;
+      margin-left: auto;
     }
     .vertical {
       margin: 0 4.5px; 

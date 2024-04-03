@@ -26,8 +26,8 @@ function Support(props) {
         
           <div className={`mx-auto ${style.mx_box}`}>
             <div className={`  text-center ${style.support_contain} text-white position-relative`} >
-              <h2 className={` mb-3  fs_35  ${fontcolor}`}>{title}</h2>
-              <p className={fontcolor}>{subcontain}</p>
+              <h2 className={` mb-3  fs_35  ${fontcolor ?'text_brown' : ""}`}>{title}</h2>
+              <p className={fontcolor ? 'text_brown' : ""}>{subcontain}</p>
               <div className={style.mt_27}>
                 <Button btnlink={btnlink} bgwhite={btnbg}>{btn}</Button>
               </div>

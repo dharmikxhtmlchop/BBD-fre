@@ -42,7 +42,7 @@ function AccountCreateGuide({guidedata}) {
           
         </Row>
         <div className={` text-center ${style.mt_76}   d-lg-block`} >
-          <p className="fs-5">Vous avez de la difficulté à vous inscrire?  <a href="#/" className="fw-bold text-decoration-underline">Obtenez du soutien</a> </p>
+          <p className={style.trouble_signin}>Vous avez de la difficulté à vous inscrire?  <a href="mailto:support@peopleconnect.com" className={`  text-decoration-underline ${style.getsupport}`}>Obtenez du soutien</a> </p>
         </div>
       </div>
     </section>

@@ -9,3 +9,10 @@
  .fs_11{
   font-size: 11px;
  }
+
+ .footer_link_bap:hover{
+  color: white !important;
+ }
+ .footer_link_eap:hover{
+  color: #FFCB05 !important;
+ }

@@ -14,7 +14,7 @@ function ServiceBox({
   return (
     <React.Fragment>
       <Row
-        className={`row-gap-3 ps-0 ps-lg-3   ${
+        className={`  ps-0 ps-lg-3   ${
           rowgap ? "row-gap-md-5" : "row-gap-md-0"
         }   flex-wrap ${
           divided ?  `justify-content-between ${style.servicebuisnessbox}`  :  `justify-content-center ${style.servicesBox}`}

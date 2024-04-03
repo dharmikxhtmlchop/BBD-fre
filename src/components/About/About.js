@@ -7,7 +7,7 @@ import VideoPlayer from "../videoplayer/VideoPlayer "
 function About({aboutContain,btnlink}) {
   return (
     <section className={`${style.py136} ${style.bgclr}`}>
-      <div className="container about">
+      <div className="container about px-4">
         <div className={style.mainboxwidth}>
           <Row className="align-items-lg-end align-items-center g-xl-0 gap-5 gap-lg-0 justify-content-center justify-content-lg-between    ">
             <Col lg={4} className={style.leftcontain}>

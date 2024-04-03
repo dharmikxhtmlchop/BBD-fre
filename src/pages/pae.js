@@ -15,14 +15,14 @@ import { navigate } from "gatsby"
 
 
 const IndexPage = () => {
-  React.useEffect(() => {
-    navigate('/pae')
-  })
+  // React.useEffect(() => {
+  //   navigate('/pae')
+  // })
   const { header ,homepageData, aboutContain, servicepageData, serviceBoxData,support, TestimonialData } = data;
 
   return (
     <Layout
-      pageTitle="BBD-EAP-Gatsby Bootstrap"
+      pageTitle="BBD-PAE"
       pageDescription="Welcome to our Gatsby site with Bootstrap integration"
     >
     <Header img={header.rightimg} link={header.link} signup={header.signup} signin={header.signin} eap={true} logoalt={header.alt} />
@@ -57,6 +57,7 @@ const IndexPage = () => {
         btn="Commençons"
       />
       <Testimonial
+       
         background="bg-lightyellow"
         flowerimg=" d-none d-xl-block"
         conatin={TestimonialData.contain}
@@ -74,7 +75,7 @@ const IndexPage = () => {
         btn={support.btn}
       />
        
-      <FooterComponent boderclr="border-dark"  bgcolor="bg_brown" /> 
+      <FooterComponent eap={true} boderclr="border-dark"  bgcolor="bg_brown" /> 
     </Layout>
   )
 }

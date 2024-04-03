@@ -46,6 +46,13 @@
 .mt_76{
   margin-top: 76px;
 }
+.trouble_signin{
+  font-size: 17px;
+}
+.getsupport{
+  font-size: 17px;
+  font-weight: 600;
+}
 @media (max-width: 992px) {
   .card_size{
     width: 42%;

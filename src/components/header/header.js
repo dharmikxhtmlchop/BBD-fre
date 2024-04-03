@@ -39,7 +39,7 @@ const Header = props => {
     {showNotice && (
       <div className={styles.bg_notice} >
       <div className={`   text-center  mx-auto noticetop ${styles.noticetop}`}>
-      <p>The tragic events unfolding in our global community can raise fears and anxiety. If you are impacted in any way by the current events, make an appointment with a virtual counsellor today. To access 2 free hours of counselling, log into your People Connect account and send a message to &nbsp;<a href="mailto:support@pcpeopleconnect.com" className="fw-bold text-decoration-underline">support@pcpeopleconnect.com</a>  or send a message through the live chat function.</p>
+Les événements tragiques qui se déroulent sur la scène mondiale peuvent susciter des craintes et de l'anxiété. Si vous êtes touché de quelque manière que ce soit par les événements actuels, prenez rendez-vous avec un conseiller dès aujourd'hui. Pour accéder à 2 heures gratuites de consultation, connectez-vous à People vous connecte et envoyez un message à <a href="mailto:support@pcpeopleconnect.com" className={`fw-bold text-decoration-underline ${styles.header_link_eap}`}>support@pcpeopleconnect.com</a>  ou envoyez un message avec la fonction de clavardage.      <p></p>
       
       <button onClick={handleClose} className={`border-0 bg-transparent ${styles.closebtn}`} > 
       <img src={closebtn} alt="fermer" className="img-fluid" />
@@ -50,7 +50,7 @@ const Header = props => {
     <Navbar  expand="lg"  sticky="top" bg="white"  className={` py-0 py-lg-3 px-lg-3 ${styles.shadow_nav} ${styles.navbar} ${isSticky ? 'py-lg-3' : styles.pt}`}    >
       <Container className="align-items-center">
         <div className="d-flex align-items-center">
-          <Navbar.Brand as={Link} to="/" className="me-0 p-0">
+          <Navbar.Brand  href="https:/www.bbd.ca/fr" target="_blank" className="me-0 p-0">
             <div className="img-fluid">
               <img
                 className={styles.logosize}
@@ -77,13 +77,13 @@ const Header = props => {
         </div>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-          <div className="d-block d-lg-flex justify-content-between my-2 align-items-center   gap-3 gap-xl-5">
-              <div className="d-lg-flex d-block justify-content-between align-items-center  gap-3 gap-xl-5"> 
+          <div className={`d-block d-lg-flex justify-content-between my-2 align-items-center   gap-3 gap-xl-5 ${styles.menu_right}`}>
+              <div className="d-lg-flex d-block text-end justify-content-between align-items-center  gap-3 gap-xl-5"> 
                 <Nav.Link   href={props.signin} target="blank" className="fw-bold">
                 Connectez-vous
                 </Nav.Link>
-                <div className="mt-3 mt-lg-0 d-flex gap-3 align-items-center">
-                <a href={props.link} className={` fs-6  fw-light ${ styles.cursorpointer}`} >EN</a><span>|</span><p className={`fs-6 fw-bold ${ styles.cursordefault}`}>FR</p>
+                <div className="mt-3 mt-lg-0 d-flex gap-3 justify-content-end align-items-center">
+                <a href={props.link} className={` fs-6  fw-light ${ styles.cursorpointer} ${  styles.en_hover}`} >EN</a><span>|</span><p className={`fs-6 fw-bold ${styles.fr_hover} ${ styles.cursordefault}`}>FR</p>
                 </div>
                 {/* </Nav.Link> */}
               </div>

@@ -2,10 +2,12 @@ import React from "react"
 import { Col, Row } from "react-bootstrap"
 import * as style from "./testimonial.module.css"
 import { StaticImage } from "gatsby-plugin-image"
-import rightquote from "../../images/rightquote.svg"
-import leftquotes from "../../images/leftquotes.svg"
+ 
+import freleftquotes from "../../images/fre_qutes.png"
+import frerighttquotes from "../../images/fre_qutes_right.png"
+
 function Testimonial(props) {
-  const { written, conatin, background, flowerimg, shapeimg, msauto } = props
+  const { written, conatin, background, flowerimg, shapeimg, msauto  } = props
   return (
     <section className={` position-relative ${background}`}>
       <div className="position-absolute  bottom-0 w-100">
@@ -23,11 +25,11 @@ function Testimonial(props) {
               }`}
             >
               <span className={` ${style.leftquotes}`}>
-              <img src={leftquotes} alt="leftquotes" className={` ${style.leftquotes_img}`} />
+              <img src={  freleftquotes } alt="leftquotes" className={` ${style.leftquotes_img}`} />
 
               </span>
               <span className={` ${style.rightquotes}`}>
-              <img src={rightquote} alt="rightquotes" className={` ${style.rightquotes_img}`}/>
+              <img src={  frerighttquotes } alt="rightquotes" className={` ${style.rightquotes_img}`}/>
 
               </span>
               <div className={style.pxSpace}>

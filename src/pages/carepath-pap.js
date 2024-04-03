@@ -16,11 +16,11 @@ import FooterComponent from '../components/Footer/Footer';
 import { navigate } from "gatsby"
 
 function Indexbap() {
-  React.useEffect(() => {
-    navigate('/carepath-pap')
-  })
+  // React.useEffect(() => {
+  //   navigate('/carepath-pap')
+  // })
   return (
-    <Layout>
+    <Layout pageTitle="BBD-PAP">
       <Header img={data.header.rightimg} link={data.header.link} signup={data.header.signup} signin={data.header.signin} logoalt={data.header.alt}/> 
       <Home alignself="align-self-center" bap_py={true} p0="pb-0" careerpathpap_contain= "careerpathpap_contain"  papcontain={true} mt={true} orderf='order-first' imgpart="true" lscontain={true} orderl='order-last' img={baphomebg} shapeimg={shapeimg} homepageData={data.homepageData[0]} meauto="me-auto"/>
       <BapServices serviceBoxData={data.servicesbbd}       btnlink="https://bbdcarepath-pap.peoplevousconnecte.com/signup"/>
@@ -31,7 +31,7 @@ function Indexbap() {
       
       <Support
       // leftpng=" "
-      fontcolor="text-black"
+      fontcolor={true}
       buuterflyleft="d-none d-lg-block"
         rightpng=" d-block"
         title={data.support.title}

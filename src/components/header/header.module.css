@@ -25,12 +25,12 @@
 .bg_notice{
   background-color: #E3E4ED;
   position: relative;
-  padding: 22px 0;
+  /* padding: 22px 0; */
 
 }
 .noticetop{
   max-width: 71%;
-  
+  padding: 22px 0;
 }
 .noticetop p{
   font-size: 13px;
@@ -78,11 +78,11 @@
   color: #d8ab00 !important;
  }
  .en_hover:hover{
-  color: #002aff !important;
+  font-weight: 800;
  }
- .fr_hover:hover{
+ /* .fr_hover:hover{
   color: #002aff !important;
- }
+ } */
 @media (max-width: 1200px) {
   .logorightsideimg {
     width: 255px;

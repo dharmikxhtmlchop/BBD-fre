@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react"
 import { Navbar, Container, Nav,   } from "react-bootstrap" 
 import * as styles from "./header.module.css"
- import closebtn from '../../images/btnclose.png' 
+ 
+ import closebtn from '../../images/btnclose.png'
+ 
  import harmburg from '../../images/harmburg_menu.svg'
  import logofrench from '../../images/logo_french.png'
 const Header = props => {
@@ -84,7 +86,7 @@ Les événements tragiques qui se déroulent sur la scène mondiale peuvent susc
                 Connectez-vous
                 </Nav.Link>
                 <div className="mt-3 mt-lg-0 d-flex gap-3 justify-content-end align-items-center">
-                <a href={props.link} className={` fs-6  fw-light ${ styles.cursorpointer} ${  styles.en_hover}`} >EN</a><span>|</span><p className={`fs-6 fw-bold ${styles.fr_hover} ${ styles.cursordefault}`}>FR</p>
+                <a href={props.link} className={` fs-6   ${ styles.cursorpointer} ${  styles.en_hover}`} >EN</a><span>|</span><p className={`fs-6 fw-bold ${styles.fr_hover} ${ styles.cursordefault}`}>FR</p>
                 </div>
                 {/* </Nav.Link> */}
               </div>

@@ -66,6 +66,7 @@ const IndexPage = () => {
       />
       <Support
         // leftpng="d-none d-lg-block"
+        eap={false}
         buuterflyleft="d-none"
       btnlink={support.btnlink}
       leftpng=" d-lg-block"

@@ -4,9 +4,10 @@ import Button from "../buttons/Button"
 import buuterfly from "../../images/left_butterfly.svg"
 import leftbutterfly from "../../images/leftsupportbutterfly.svg"
 import rightbutterfly from "../../images/supportbutterfly.svg"
+import eapleftbutterfly from '../../images/eap_responsive_fly.svg'
 function Support(props) {
  
-  const { subcontain, btnbg, supportbg, rightpng, leftpng,buuterflyleft ,title,btn,fontcolor ,btnlink} = props
+  const { subcontain, btnbg, supportbg, rightpng, leftpng,buuterflyleft ,title,btn,fontcolor ,btnlink,eap} = props
   return (
     <section className={`position-relative   ${supportbg} ${style.pySpace}`}>
       <div
@@ -19,8 +20,11 @@ function Support(props) {
       </div>
       <div
         className={`  d-lg-none  text-center ${rightpng} mx-auto mb-4 ${style.butterflyleft}`}
-      >
-        <img src={leftbutterfly} alt=" " className="img-fluid" />
+      > 
+        {
+        eap ?  <img src={leftbutterfly} alt=" " className="img-fluid" /> :  <img src={eapleftbutterfly} alt=" " className="img-fluid" /> 
+          
+      }
       </div>
       <div className="container">
         

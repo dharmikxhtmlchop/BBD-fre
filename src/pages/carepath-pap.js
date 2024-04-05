@@ -26,7 +26,7 @@ function Indexbap() {
       <BapServices serviceBoxData={data.servicesbbd}       btnlink="https://bbdcarepath-pap.peoplevousconnecte.com/signup"/>
       <Service lefshape="" grayshape={true} btnlink={data.servicepageData.btnlink} subtitle={data.servicepageData.subtitle} btn="Commençons" eapboxsize="boxsize"  lg4='4' rightshape='' title={data.servicepageData.title}  noImage={false} businessowners={data.businessowners} description={''} divided={true} serviceBoxData={data.serviceBoxData} />
       <AdditionalService/>
-      <AccountCreateGuide guidedata={data.guidedata}/>
+      {/* <AccountCreateGuide guidedata={data.guidedata}/> */}
       <Testimonial background="bg-gray" msauto='ms-auto' conatin={data.TestimonialData.conatin} flowerimg='d-none' shapeimg={shapeimgtestimonial} written={data.TestimonialData.written} />
       
       <Support

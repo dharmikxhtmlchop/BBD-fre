@@ -9,6 +9,7 @@ function ServiceBox({
   businessowners,
   noImage,
   rowgap,
+  eap
  
 }) {
   return (
@@ -44,6 +45,7 @@ function ServiceBox({
                   img={ele.img}
                   title={ele.title}
                   description={ele.description}
+                  eap={eap}
                 />
               </Col>
             )

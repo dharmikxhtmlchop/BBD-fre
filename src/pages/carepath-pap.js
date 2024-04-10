@@ -40,6 +40,8 @@ function Indexbap() {
         btn={data.support.btn}
         btnbg="bg-white"
         btnlink={data.support.btnlink}
+        eap={true}
+
       />
        <FooterComponent boderclr="border_dark" fontcolor="text-black"  bgcolor="bg-yellow" /> 
 

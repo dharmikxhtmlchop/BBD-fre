@@ -58,7 +58,7 @@ Les événements tragiques qui se déroulent sur la scène mondiale peuvent susc
               <img
                 className={styles.logosize}
                 src={logofrench}
-                alt=" "
+                alt="Avantages sociaux sur mesure"
               />
             </div>
           </Navbar.Brand>

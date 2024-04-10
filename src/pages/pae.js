@@ -41,6 +41,8 @@ const IndexPage = () => {
       <About aboutContain={aboutContain} btnlink={aboutContain.btnlink}/>
       <Service
         lg4="3"
+        eap={true}
+
         subtitle={servicepageData.subtitle}
         title={servicepageData.title}
         rowgap={true}

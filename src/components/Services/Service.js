@@ -20,7 +20,8 @@ function Service(props) {
     btn,
     eapboxsize,
     grayshape
-    ,btnlink
+    ,btnlink,
+    eap
   } = props
 
   return (
@@ -48,6 +49,7 @@ function Service(props) {
           <ServiceBox
             boxData={serviceBoxData}
             lg4={lg4}
+            eap={eap}
             divided={divided}
             rowgap={rowgap}
             noImage={noImage}

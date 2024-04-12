@@ -16,15 +16,16 @@ p {
 }
 
 .servicesconatin {
+  
   font-size: 19px;
   margin-top: 35px;
+  max-width: 770px;
+  margin-left: auto;
+  margin-right: auto;
   
 }
 
-.servicemxwidth {
-  max-width: 679px;
-  margin: 0 auto;
-}
+ 
 .servicetitle h4{
   font-size: 26px;
 }
@@ -76,6 +77,12 @@ p {
 }
 .heading_supportemp{
   font-size: 21px;
+}
+@media (max-width: 1550px) {
+  .servicemxwidth {
+    max-width: 679px;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 1200px) {
   .boxsize{

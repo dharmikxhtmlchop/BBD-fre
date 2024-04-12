@@ -34,22 +34,35 @@ function ServiceBox({
           </div>
         )}
         {boxData &&
-          boxData.map((ele, index) => {
-            
-            return (
-              <Col md={4}  lg={lg4} className={ ` mx-xl-0   p-0 ${
-          divided ?  `  ${style.boxsize}`  :  ` ${style.boxsizeeap}`}`}  key={index}>
-                <Card
-                  noImage={noImage}
-                  img_width='img_width' 
-                  img={ele.img}
-                  title={ele.title}
-                  description={ele.description}
-                  eap={eap}
-                />
-              </Col>
-            )
-          })}
+  boxData.map((ele, index) => {
+    let titleContent = ele.title;
+    if (ele.title.includes("\n")) {
+      titleContent = ele.title.split("\n").map((part, i) => (
+        <React.Fragment key={i}>
+          {part}
+          <br className="d-none d-lg-block"/>
+        </React.Fragment>
+      ));
+    }
+
+    return (
+      <Col
+        md={4}
+        lg={lg4}
+        className={`p-0 mx-xl-0 ${divided ? style.boxsize : style.boxsizeeap}`}
+        key={index}
+      >
+        <Card
+          noImage={noImage}
+          img_width="img_width"
+          img={ele.img}
+          title={titleContent}
+          description={ele.description}
+          eap={eap}
+        />
+      </Col>
+    );
+  })}
       </Row>
       {divided && (
         <Row

@@ -6,6 +6,14 @@
     font-size: 15px;
 }
 .img_width{
-    width: 76px;
-    height: 76px;
+    
+    min-height: 95px;
   }
+  .titlestyle{
+    min-height: 88px;
+  }
+  @media (max-width: 768px) {
+    .titlestyle{
+        min-height: auto;
+      }
+}

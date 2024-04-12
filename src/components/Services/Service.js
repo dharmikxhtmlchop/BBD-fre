@@ -1,6 +1,5 @@
 import React from "react"
-import * as style from "./service.module.css"
-import { StaticImage } from "gatsby-plugin-image" 
+import * as style from "./service.module.css" 
 import ServiceBox from "./ServiceBox"
 import Button from "../buttons/Button"
 import sevicebgshap1 from "../../images/sevicebgshap1.png"

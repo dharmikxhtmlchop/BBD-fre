@@ -18,6 +18,10 @@
 }
 .box_bapservice{
   padding: 43.21px 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 .boxsize{
   width: calc(25% - 14px);

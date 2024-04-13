@@ -30,37 +30,37 @@
     },
     "serviceBoxData": [
       {
-        "img": "firstbox.svg",
+        "img": "icon1.png",
         "title": "Soutien en santé mentale",
         "description": "PAE facile à utiliser, virtuel ou dans votre communauté locale. Nous avons des conseillers et thérapeutes agréés qui soutiennent les besoins à court et à long terme. "
       },
       {
-        "img": "second.svg",
+        "img": "icon2.png",
         "title": "Services professionnels, de santé et de vie",
         "description": "Un soutien personnalisé à court terme pour aider à relever les défis quotidiens de la vie professionnelle comme l’encadrement en santé, les services financiers, le soutien en santé mentale et plus encore."
       },
       {
-        "img": "third.svg",
+        "img": "icon3.png",
         "title": "Blogue de \n ressources",
         "description": "Articles et balados, vidéos sur la santé mentale"
       },
       {
-        "img": "fourthbox.svg",
+        "img": "icon4.png",
         "title": "Apprentissage personnel iTCC",
         "description": "Modules en ligne de plusieurs semaines basés sur la thérapie cognitivo-comportementale pour nous aider à conduire notre propre changement de comportement. Travaillez de façon autonome et améliorez votre bien-être."
       },
       {
-        "img": "fivebox.svg",
+        "img": "icon5.png",
         "title": "Outil d’autoévaluation",
         "description": "Outil exclusif d’autoévaluation de la santé mentale fondé sur le Manuel diagnostique et statistique des troubles mentaux (DSM)"
       },
       {
-        "img": "sixbox.svg",
+        "img": "icon6.png",
         "title": "Thérapie continue People vous connecte",
         "description": "Transition harmonieuse vers des soins à long terme avec votre thérapeute. Le soutien pourrait se poursuivre dans la catégorie des praticiens paramédicaux de votre régime d’avantages sociaux."
       },
       {
-        "img": "sevenbox.svg",
+        "img": "icon7.png",
         "title": "Collaboration psychiatrique",
         "description": "Collaboration psychiatrique virtuelle pour les cas nécessitant un soutien supplémentaire."
       }

@@ -9,10 +9,13 @@
 }
 .img_width{
     
-    min-height: 95px;
+    min-height: 74px;
   }
   .titlestyle{
     min-height: 88px;
+  }
+  .paptitle{
+    min-height: 105px;
   }
   @media (max-width: 768px) {
     .titlestyle{

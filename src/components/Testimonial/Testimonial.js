@@ -14,7 +14,7 @@ function Testimonial(props) {
         <img className="w-100" src={shapeimg} alt=" " />
       </div>
       <div className={` position-absolute ${flowerimg}  ${style.flower}`}>
-        <StaticImage src="../../images/flower.svg" alt="flower" />
+        <StaticImage src="../../images/flower.png" alt="flower" />
       </div>
       <div className="container position-relative">
         <Row className={style.pySpace}>

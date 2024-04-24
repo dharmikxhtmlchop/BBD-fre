@@ -2,6 +2,7 @@ import React from "react"
 import { Col, Row } from "react-bootstrap"
 import * as style from "./testimonial.module.css"
 import { StaticImage } from "gatsby-plugin-image"
+import flower from "../../images/flower.png"
  
 import freleftquotes from "../../images/fre_qutes.png"
 import frerighttquotes from "../../images/fre_qutes_right.png"
@@ -14,7 +15,8 @@ function Testimonial(props) {
         <img className="w-100" src={shapeimg} alt=" " />
       </div>
       <div className={` position-absolute ${flowerimg}  ${style.flower}`}>
-        <StaticImage src="../../images/flower.png" alt="flower" />
+        {/* <StaticImage src="../../images/flower.png" alt="flower" /> */}
+        <img src={flower} alt="flower" />
       </div>
       <div className="container position-relative">
         <Row className={style.pySpace}>

@@ -18,6 +18,9 @@
   right: 10%;
 
 }
+.flower img{
+  width: 265px;
+}
 .leftquotes {
   position: absolute;
   top: -10%;
